@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+[data-theme="light"] {
+  --text-color: black;
+  --background-color: white;
+}
+
+[data-theme="dark"] {
+  --text-color: #fcfcfc;
+  --background-color: #1d1c1c;
+}
+
+.App {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* .header_section {
+  display: flex;
+} */
